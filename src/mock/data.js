@@ -21,14 +21,14 @@ export const aboutData = {
   paragraphOne: '',
   paragraphTwo: '',
   paragraphThree: '',
-  cv: 'https://www.resumemaker.online/es.php', // if no resume, the button will not show up
+  cv: 'https://drive.google.com/file/d/1oNOsWyTxcA_rrJc6dvdkVKoX2aizqXK1/view?usp=sharing', // if no resume, the button will not show up
 };
 
 // PROJECTS DATA
 export const projectsData = [
   {
     id: nanoid(),
-    img: 'angularjs.png',
+    img: 'angular.png',
     title: 'Angular web',
     info: '',
     info2: '',
@@ -37,21 +37,22 @@ export const projectsData = [
   },
   {
     id: nanoid(),
-    img: 'project.jpg',
+    img: 'react.png',
     title: 'React.js Web',
-    info: '',
+    info:
+      'Realtime Chat Application. It has been used React on the front end, with NodeJS + Socket.io web socket library on the back end. ',
     info2: '',
     url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
+    repo: 'https://github.com/VictorFiant/chat-app', // if no repo, the button will not show up
   },
   {
     id: nanoid(),
-    img: 'project.jpg',
+    img: 'mongodb1.png',
     title: 'MongoDB+Express',
     info: '',
     info2: '',
-    url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
+    url: 'https://github.com/VictorFiant/UTN-Final',
+    repo: 'https://github.com/VictorFiant/UTN-Final', // if no repo, the button will not show up
   },
 ];
 

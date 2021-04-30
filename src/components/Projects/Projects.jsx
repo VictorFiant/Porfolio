@@ -45,7 +45,7 @@ const Projects = () => {
                       <div>
                         <p>
                           {info ||
-                            'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Excepturi neque, ipsa animi maiores repellendu distinctioaperiam earum dolor voluptatum consequatur blanditiis inventore debitis fuga numquam voluptate architecto itaque molestiae.'}
+                            'An e-commerce developed using TypeScript with Angular, Angular Material, HTML5 and CSS. Enter to Jsonfy.com/items as the back-end that returns products and product details.'}
                         </p>
                         <p className="mb-4">{info2 || ''}</p>
                       </div>
