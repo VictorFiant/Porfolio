@@ -9,7 +9,7 @@ export const headData = {
 
 // HERO DATA
 export const heroData = {
-  title: 'Hello! my name is ',
+  title: 'Hello! My name is ',
   name: 'Victor Fiant',
   subtitle: 'I am a Web Developer',
   cta: '',
@@ -21,11 +21,40 @@ export const aboutData = {
   paragraphOne: '',
   paragraphTwo: '',
   paragraphThree: '',
-  cv: 'https://drive.google.com/file/d/1oNOsWyTxcA_rrJc6dvdkVKoX2aizqXK1/view?usp=sharing', // if no resume, the button will not show up
+  cv: 'https://drive.google.com/file/d/12JXj0CdOvuIf3Ti_lfdROudVF7U_wFQl/view?usp=sharing', // if no resume, the button will not show up
 };
 
 // PROJECTS DATA
 export const projectsData = [
+  {
+    id: nanoid(),
+    img: 'react.png',
+    title: 'React.js E-commerce',
+    info:
+      'Creative and compact Marketplace, completely developed using JavaScript with React.js, Material-UI, HTML5, and CSS. Used Commerce.js as the back-end that returns products and product details. ',
+    info2: '',
+    url: 'https://merkato.netlify.app/',
+    repo: 'https://github.com/VictorFiant/e-commerce', // if no repo, the button will not show up
+  },
+  {
+    id: nanoid(),
+    img: 'react.png',
+    title: 'React.js Video-chat',
+    info:
+      'Realtime Chat Application. It has been used React on the front end, with NodeJS + Socket.io web socket library on the back end. ',
+    info2: '',
+    url: 'https://video-c-app.netlify.app',
+    repo: 'https://github.com/VictorFiant/chat-app', // if no repo, the button will not show up
+  },
+  {
+    id: nanoid(),
+    img: 'mongodb1.png',
+    title: 'MongoDB+Express',
+    info: 'Small REST API developed in Express.js using MongoDB. It has used all of the methods Post, Put, Get, Update and Delete, which can be manipulate the operations on the database. Test implemented in Postman.',
+    info2: '',
+    url: 'https://github.com/VictorFiant/UTN-Final',
+    repo: 'https://github.com/VictorFiant/UTN-Final', // if no repo, the button will not show up
+  },
   {
     id: nanoid(),
     img: 'angular.png',
@@ -34,25 +63,6 @@ export const projectsData = [
     info2: '',
     url: 'https://angular-web.netlify.app',
     repo: 'https://github.com/VictorFiant/Angular-Web', // if no repo, the button will not show up
-  },
-  {
-    id: nanoid(),
-    img: 'react.png',
-    title: 'React.js Web',
-    info:
-      'Realtime Chat Application. It has been used React on the front end, with NodeJS + Socket.io web socket library on the back end. ',
-    info2: '',
-    url: '',
-    repo: 'https://github.com/VictorFiant/chat-app', // if no repo, the button will not show up
-  },
-  {
-    id: nanoid(),
-    img: 'mongodb1.png',
-    title: 'MongoDB+Express',
-    info: '',
-    info2: '',
-    url: 'https://github.com/VictorFiant/UTN-Final',
-    repo: 'https://github.com/VictorFiant/UTN-Final', // if no repo, the button will not show up
   },
 ];
 
