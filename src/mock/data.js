@@ -28,7 +28,7 @@ export const aboutData = {
 export const projectsData = [
   {
     id: nanoid(),
-    img: 'react.png',
+    img: 'next.png',
     title: 'React.js - Next.js Social Media',
     info:
       'Completely developed using Typescript with React.js, Next.js, TailwindCSS and TypeORM. Used Express.js as back-end and Database PostgreSQL. It was deployed on AWServices.',
