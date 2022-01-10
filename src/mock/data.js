@@ -29,6 +29,16 @@ export const projectsData = [
   {
     id: nanoid(),
     img: 'react.png',
+    title: 'React.js - Next.js Social Media',
+    info:
+      'Completely developed using Typescript with React.js, Next.js, TailwindCSS and TypeORM. Used Express.js as back-end and Database PostgreSQL. It was deployed on AWServices.',
+    info2: '',
+    url: 'https://52.15.236.32',
+    repo: 'https://github.com/VictorFiant/s-media', // if no repo, the button will not show up
+  },
+  {
+    id: nanoid(),
+    img: 'react.png',
     title: 'React.js E-commerce',
     info:
       'Creative and compact Marketplace, completely developed using JavaScript with React.js, Material-UI, HTML5, and CSS. Used Commerce.js as the back-end that returns products and product details. ',
