@@ -31,7 +31,7 @@ export const projectsData = [
     img: 'next.png',
     title: 'React.js - Next.js Social Media',
     info:
-      'Completely developed using Typescript with React.js, Next.js, TailwindCSS and TypeORM. Used Express.js as back-end and Database PostgreSQL. It was deployed on AWServices.',
+      'It was completely developed using Typescript with React.js, Next.js, TailwindCSS and TypeORM. Express.js as back-end and the Database was PostgreSQL. It was deployed on AWServices.',
     info2: '',
     url: 'https://52.15.236.32',
     repo: 'https://github.com/VictorFiant/s-media', // if no repo, the button will not show up
