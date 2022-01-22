@@ -31,7 +31,7 @@ export const projectsData = [
     img: 'next.png',
     title: 'React.js - Next.js Social Media',
     info:
-      'It was completely developed using Typescript with React.js, Next.js, TailwindCSS and TypeORM. Express.js as back-end and the Database was PostgreSQL. It was deployed on AWServices.',
+      'It was completely developed using Typescript with ReactJs, NextJs, TailwindCSS and TypeORM. Express.js as back-end and the Database was PostgreSQL. It was deployed on AWServices.',
     info2: '',
     url: 'http://52.15.236.32',
     repo: 'https://github.com/VictorFiant/s-media', // if no repo, the button will not show up
@@ -60,7 +60,8 @@ export const projectsData = [
     id: nanoid(),
     img: 'mongodb1.png',
     title: 'MongoDB+Express',
-    info: 'Small REST API developed in Express.js using MongoDB. It has used all of the methods Post, Put, Get, Update and Delete, which can be manipulate the operations on the database. Test implemented in Postman.',
+    info:
+      'Small REST API developed in Express.js using MongoDB. It has used all of the methods Post, Put, Get, Update and Delete, which can be manipulate the operations on the database. Test implemented in Postman.',
     info2: '',
     url: 'https://github.com/VictorFiant/UTN-Final',
     repo: 'https://github.com/VictorFiant/UTN-Final', // if no repo, the button will not show up
